@@ -1,0 +1,32 @@
+{
+    "asar": false,
+    "appId": "one.stick.pro",
+    "productName": "ERP Electron",
+    "icon": "assets/img/icon.ico",
+
+    "files": [
+        "!.gitignore",
+        "!.brwoserslistrc",
+        "!LICENSE.md",
+        "!build-config.json",
+        "!postcss.config.js",
+        "!vue.config.js",
+        "!package-lock.json",
+        "!core/storage/data.json",
+
+        "!vue",
+        "!lib/vue-dev-tools"
+    ],
+
+    "win": {
+        "target": "nsis",
+        "icon": "assets/img/icon.ico"
+    },
+
+    "nsis": {
+        "allowToChangeInstallationDirectory": true,
+        "installerIcon": "assets/img/icon.ico",
+        "uninstallerIcon": "assets/img/icon.ico",
+        "license": "LICENSE.md"
+    }
+}

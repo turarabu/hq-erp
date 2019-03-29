@@ -1,0 +1,8 @@
+#dirs
+node_modules
+interface
+dist
+
+#files
+package-lock.json
+core/storage/data.json

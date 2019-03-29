@@ -1,0 +1,31 @@
+{
+  "name": "hq-erp",
+  "version": "0.5.0",
+  "description": "HQ ERP Electron app",
+  "main": "main.js",
+  "scripts": {
+    "now": "electron main.js",
+    "start": "vue-cli-service build && electron main.js",
+    "vue-builder": "vue-cli-service build --watch",
+    "vue-builder-once": "vue-cli-service build"
+  },
+  "keywords": [
+    "electron",
+    "vue"
+  ],
+  "author": "Turar Abu",
+  "license": "MIT",
+  "dependencies": {
+    "auto-launch": "^5.0.5",
+    "module-alias": "^2.2.0",
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^3.5.0",
+    "electron-builder": "^20.39.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
